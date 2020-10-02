@@ -326,6 +326,17 @@ button {
   position: absolute;
 }
 
+.our_friends__link img {
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border-radius: 100%;
+}
+
+.our_friends__link img:hover {
+  background: #F1CDB3;
+}
+
 .our_friends__link-left {
   left: 18.8%;
   bottom: -229.6%;
@@ -438,6 +449,73 @@ button {
 
 .our_friends__btn:hover {
   background: #FDDCC4;
+}
+
+.help {
+  min-height: 38.1875em;
+  color: #545454;
+  background: #fff;
+}
+
+.help__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 46px 0 0 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.help__title {
+  position: relative;
+  bottom: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+}
+
+.help__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  gap: 120px;
+}
+
+.help__list-top {
+  position: relative;
+  top: 4px;
+}
+
+.help__list__icon {
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.help__list__icon:hover {
+  -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.help__list__subtitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
 }
 @supports (-webkit-appearance:none){
 .main__screen__wrapper{background:url(../assets/images/bg-main-page.webp), -o-radial-gradient(0% 0%, 100% 215.42%, #5B483A 0%, #262425 80%), #211F20}
