@@ -517,6 +517,114 @@ button {
   line-height: 23px;
   letter-spacing: 0.06em;
 }
+
+.in_addition {
+  min-height: 29em;
+  background: #F6F6F6;
+}
+
+.in_addition__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 81px 0 0 0;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.in_addition__item-img-box {
+  position: relative;
+  bottom: 11px;
+}
+
+.in_addition__item-donation-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 23.75em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.in_addition__title {
+  position: relative;
+  bottom: 3px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.in_addition__bank-info {
+  position: relative;
+  bottom: 1px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.in_addition__card-holder {
+  position: relative;
+  bottom: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 349px;
+  height: 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #F1CDB3;
+  border-radius: 9px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.in_addition__card-holder:hover {
+  background: #FDDCC4;
+}
+
+.in_addition__card-link {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #545454;
+  letter-spacing: 0.06em;
+}
+
+.in_addition__offer {
+  position: relative;
+  bottom: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
 @supports (-webkit-appearance:none){
 .main__screen__wrapper{background:url(../assets/images/bg-main-page.webp), -o-radial-gradient(0% 0%, 100% 215.42%, #5B483A 0%, #262425 80%), #211F20}
 .main__screen__wrapper{background:url(../assets/images/bg-main-page.webp), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 80%), #211F20}
