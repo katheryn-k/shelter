@@ -26,7 +26,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1920px;
+  max-width: 1280px;
   min-height: 100%;
   margin: auto;
   -webkit-box-orient: vertical;
