@@ -1,4 +1,4 @@
-## [SHELTER - Page Demo](https://shelter-page.netlify.app/)
+## [SHELTER - Page Demo](https://katheryn-k.github.io/shelter/)
 
 [Landing page by template](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter-pets-1280px.jpg)
 
@@ -7,10 +7,6 @@ Use:
 
 - PerfectPixel
 
-
-Deploy:
-
-- Netlify
 
 Copyright
 
